@@ -35,14 +35,6 @@ WAPE = total absolute error ÷ total actual traffic. It is used instead of MAPE 
 | One hyperparameter combination per "grid" | Real grid search, `TimeSeriesSplit` with a 1-week gap |
 | Metrics include imputed hours | Metrics on observed hours only |
 
-## Repository
-
-```
-traffic_volume_forecasting.ipynb   full analysis, executed with outputs
-data/                              UCI dataset (gzipped CSV)
-results/model_comparison.csv       results table produced by the notebook
-```
-
 ## How to run
 
 ```bash
